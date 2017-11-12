@@ -334,7 +334,12 @@ hr {
 
   .sub-info {
     text-align: left;
+    font-size: 9px;
     padding-left: 15px;
+  }
+
+  .sub-info li{
+    text-align: left;
     font-size: 9px;
   }
 
