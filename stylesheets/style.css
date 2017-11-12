@@ -282,7 +282,7 @@ hr {
 
   .education-info {
     display: block;
-    margin: auto;
+    margin: 0;
     width: 400px;
     text-align: left;
   }
@@ -290,6 +290,7 @@ hr {
   .sub-info {
     text-align: left;
     padding-left: 15px;
+    font-size: 10px;
   }
 
   .logo {
@@ -335,7 +336,7 @@ hr {
   }
 
   body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }
