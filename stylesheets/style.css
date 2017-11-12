@@ -276,9 +276,8 @@ hr {
   }
 }
 
-/* iPhone 6 350px - 800px */
+/* iPhone < 800px */
 @media only screen
-  and (min-width: 350px)
   and (max-width: 800px) {
 
   .education-info {
@@ -308,6 +307,10 @@ hr {
   .programming-languages li  {
     width: 100%;
     text-align: center;
+  }
+
+  .experience ul {
+    padding-left: 12px;
   }
 
   .project-list {
