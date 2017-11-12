@@ -287,12 +287,6 @@ hr {
     text-align: left;
   }
 
-  .sub-info {
-    text-align: left;
-    padding-left: 15px;
-    font-size: 10px;
-  }
-
   .logo {
     display: block;
     margin: auto;
@@ -337,6 +331,12 @@ hr {
 
   body {
     font-size: 12px;
+  }
+
+  .sub-info {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 10px;
   }
 
 }
