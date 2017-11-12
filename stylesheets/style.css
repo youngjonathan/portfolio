@@ -71,11 +71,6 @@ html, body {
   vertical-align: middle;
 }
 
-#education {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .logo {
   display: inline-block;
   vertical-align: middle;
@@ -83,11 +78,6 @@ html, body {
   width: 400px;
   height: auto;
 }
-
-/*.card {
-  display: inline-block;
-  vertical-align: top;
-}*/
 
 .skill-container {
   width: 400px;
@@ -336,16 +326,8 @@ hr {
     margin-bottom: 20px;
   }
 
-
-  /*.card figure {
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }*/
-
   body {
-    font-size: 11px;
+    font-size: 10px;
   }
 
 }
