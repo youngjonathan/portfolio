@@ -283,7 +283,7 @@ hr {
   .education-info {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    /*width: 400px;*/
   }
 
   .logo {
