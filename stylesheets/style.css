@@ -336,12 +336,12 @@ hr {
     text-align: left;
     font-size: 9px;
     padding-left: 15px;
-    list-style-position: inside;
   }
 
   .sub-info li{
     text-align: left;
     font-size: 9px;
+    word-wrap: break-word;
   }
 
 }
