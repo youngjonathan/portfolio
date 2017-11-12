@@ -6,8 +6,7 @@ html, body {
 }
 
 .top-page {
-  /*background: rgb(99, 186, 237);*/
-  background: red;
+  background: rgb(99, 186, 237);
   padding: 20px;
   margin: -8px;
 }
@@ -337,7 +336,7 @@ hr {
   .sub-info {
     text-align: left;
     padding-left: 15px;
-    font-size: 10px;
+    font-size: 100px;
   }
 
 }
