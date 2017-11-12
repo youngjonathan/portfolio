@@ -322,8 +322,13 @@ hr {
 
   .project {
     margin: 0 auto;
+    width: 200px;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  .project img {
+    width: 200px;
   }
 
   body {
