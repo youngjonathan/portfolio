@@ -24,6 +24,11 @@ $(document).ready(function() {
         scrollTop: $("#proj").offset().top}, 1000);
   });
 
+  $(".extra-button").click(function() {
+      $("html, body").animate({
+        scrollTop: $("#extra").offset().top}, 1000);
+  });
+
   $(".contact-button").click(function() {
       $("html, body").animate({
         scrollTop: $("#contact").offset().top}, 1000);
