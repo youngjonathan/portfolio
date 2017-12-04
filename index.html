@@ -26,7 +26,7 @@
           <button class="skill-button">Skills</button> |
           <button class="proj-button">Projects</button> |
           <button class="contact-button">Contact Me</button> |
-          <button onclick="window.location.href='pdf/resume.pdf'">Resume</button>
+          <button onclick="window.open('pdf/resume.pdf', '_blank');">Resume</button>
         </nav>
       </header>
     </article>
@@ -42,9 +42,10 @@
           California, Irvine. I have a passion for solving problems, and I look
           forward to the challenge of developing complex applications that not
           only solve a critical issue but also make a positive impact in the
-          community. I have experience with objected-oriented programming
-          languages such as Python and Java, web development, database design,
-          and iOS development.
+          community. I am currently looking for a position as a software engineer
+          or software engineer in test. I have experience with objected-oriented
+          programming languages such as Python and Java, web development,
+          database design, and iOS development.
         </p>
       </section>
 
@@ -82,7 +83,8 @@
         <article class="experience">
           <header>
             <h2>Software Development and Engineer in Test Intern</h2>
-            <h3>Cylance Inc. (June 2017 - September 2017)</h3>
+            <h3><a href="https://www.cylance.com/en_us/home.html"
+              target="_blank">Cylance Inc.</a> (June 2017 - September 2017)</h3>
           </header>
           <p>
             Designed and developed automated front-end web tests and page
@@ -106,14 +108,15 @@
           <header>
             <h2>Undergraduate Research Assistant</h2>
             <h3>
-              California Institute for Telecommunications and Information
-              Technology (April 2017 - June 2017)
+              <a href="http://www.calit2.uci.edu/"
+              target="_blank">California Institute for Telecommunications and Information
+              Technology</a> (April 2017 - June 2017)
             </h3>
           </header>
           <p>
             Implemented a diabetes module for a web application that surveys
             children with diabetes for the Child Health Ratings Inventory
-            project in cooperation with the Children's Hospital of Orange County
+            project in cooperation with the Children's Hospital of Orange County.
           </p>
           <ul>
             <li>Modified existing application written in PHP</li>
@@ -132,7 +135,7 @@
           </header>
           <p>
             Developed an iOS application that displays the headlines and
-            schedules for each athletic team at UC Irvine
+            schedules for each athletic team at UC Irvine.
           </p>
           <ul>
             <li>Written in Swift and developed using Xcode</li>
@@ -151,35 +154,26 @@
         </header>
         <article>
           <ul class="programming-languages">
-            <li>
-              <figure>
-                <img id="python" class="skill" src="img/python.svg" alt="Python">
-              </figure>
+            <li class="total-progress">
+              <article id="python" class="bar">Python</article>
             </li>
-            <li>
-              <figure>
-                <img id="java" class="skill" src="img/java.png" alt="Java">
-              </figure>
+            <li class="total-progress">
+              <article id="java" class="bar">Java</article>
             </li>
-            <li>
-              <figure>
-                <img id="webdev" class="skill" src="img/webdev.png" alt="Web Languages">
-              </figure>
+            <li class="total-progress">
+              <article id="htmlcss" class="bar">HTML/CSS</article>
             </li>
-            <li>
-              <figure>
-                <img id="mysql" class="skill" src="img/mysql.png" alt="MySQL">
-              </figure>
+            <li class="total-progress">
+              <article id="javascript" class="bar">Javascript</article>
             </li>
-            <li>
-              <figure>
-                <img id="selenium" class="skill" src="img/selenium.png" alt="Selenium">
-              </figure>
+            <li class="total-progress">
+              <article id="mysql" class="bar">MySQL</article>
             </li>
-            <li>
-              <figure>
-                <img id="swift" class="skill" src="img/swift.png" alt="Swift">
-              </figure>
+            <li class="total-progress">
+              <article id="selenium" class="bar">Selenium</article>
+            </li>
+            <li class="total-progress">
+              <article id="swift" class="bar">Swift</article>
             </li>
           </ul>
         </article>
@@ -195,8 +189,8 @@
         <ul class="project-list">
           <li>
             <article class="card">
-              <figure class="project">
-                <img src="img/fabflix.png" alt="Fabflix">
+              <figure id="fablix-container" class="project">
+                <img id="fabflix" src="img/fabflix.png" alt="Fabflix">
                 <figcaption>
                   <header>
                     <h3>Fabflix</h3>
@@ -274,6 +268,27 @@
           </li>
         </ul>
 
+      </section>
+
+      <hr>
+
+      <section class="category">
+        <header>
+          <h1>Extra Curriculars</h1>
+        </header>
+        <article class="artifact">
+          <img src="img/me.jpg" alt="UC Irvine Golf">
+          <article class="description">
+            <h2>UC Irvine Golf</h2>
+            <h3>2014-2018</h3>
+            <p class="summary">
+              I am a traveling member of UC Irvine's Division 1 men's golf team.
+              I have learned effective study and time management skills through balancing
+              a rigorous academic schedule with up to 20+ hours of competition
+              and practice weekly (up to 40 hours during tournament weeks)
+            </p>
+          </article>
+        </article>
       </section>
 
       <hr>

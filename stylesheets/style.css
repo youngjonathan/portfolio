@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Oxygen');
 
 html, body {
   overflow-x: hidden;
@@ -86,6 +85,7 @@ html, body {
 .project-list {
   list-style: none;
   overflow: auto;
+  padding: 0;
 }
 
 .project-list li {
@@ -97,17 +97,18 @@ html, body {
 .programming-languages {
   list-style: none;
   overflow: auto;
+  text-align: center;
 }
 
 .programming-languages li  {
-  width: 33%;
   text-align: center;
-  float: left;
 }
 
-progress {
-  height: 100px;
-  color: red;
+.total-progress {
+  width: 90%;
+  background-color: rgb(234, 234, 234);
+  border-radius: 25px;
+  margin: 25px;
 }
 
 .skill {
@@ -116,13 +117,52 @@ progress {
   height: auto;
 }
 
+/*https://www.w3schools.com/howto/howto_js_progressbar.asp*/
+.bar {
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+#python {
+  width: 100%;
+  background-color: rgb(61, 219, 179);
+}
+
+#java {
+  width: 80%;
+  background-color: rgb(61, 219, 179);
+}
+
+#htmlcss {
+  width: 80%;
+  background-color: rgb(229, 66, 106);
+}
+
+#javascript {
+  width: 60%;
+  background-color: rgb(229, 66, 106);
+}
+
+#mysql {
+  width: 50%;
+  background-color: rgb(229, 66, 106);
+}
+
 #selenium {
-  height: 100px;
-  width: auto;
+  width: 40%;
+  background-color: orange;
+}
+
+#swift {
+  width: 30%;
+  background-color: orange;
 }
 
 .project {
-  width: 300px;
+  width: 350px;
   height: auto;
   background-color: white;
   /* https://www.w3schools.com/howto/howto_css_cards.asp */
@@ -136,7 +176,7 @@ progress {
 }
 
 .project img {
-  width: 300px;
+  width: 350px;
   height: auto;
 }
 
@@ -189,7 +229,7 @@ progress {
 
 body {
   background-color: white;
-  font-family: 'Montserrat', serif;"
+  font-family: 'Oxygen', sans-serif;"
 }
 
 footer {
@@ -204,6 +244,30 @@ hr {
     rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.artifact {
+  margin-top: 40px;
+}
+
+.artifact img {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+}
+
+.description {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.description h2{
+  margin-top: 0px;
+}
+
+.summary {
+  width: 600px;
+}
+
 /* Styling For Desktops > 1270 */
 @media only screen
   and (min-width: 1270px) {
@@ -215,18 +279,19 @@ hr {
 
   .sub-info {
     text-align: left;
+    line-height: 27px;
   }
 
   .biography {
     margin-left: 100px;
     margin-right: 100px;
-    line-height: 20px;
+    line-height: 27px;
   }
 
   body {
     font-size: 18px;
   }
-  
+
 }
 
 /* iPad 801px - 1270px */
@@ -251,13 +316,6 @@ hr {
     width: 400px;
     padding: 0;
     height: auto;
-  }
-
-  .programming-languages li  {
-    width: 50%;
-    text-align: center;
-    float: left;
-    vertical-align: middle;
   }
 
   .project-list li {
@@ -296,11 +354,6 @@ hr {
     padding-left: 0;
   }
 
-  .programming-languages li  {
-    width: 100%;
-    text-align: center;
-  }
-
   .experience ul {
     padding-left: 12px;
   }
@@ -317,13 +370,13 @@ hr {
 
   .project {
     margin: 0 auto;
-    width: 200px;
+    width: 250px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
 
   .project img {
-    width: 200px;
+    width: 250px;
   }
 
   body {
@@ -336,9 +389,5 @@ hr {
     padding-left: 15px;
   }
 
-  /*.sub-info li{
-    text-align: left;
-    word-wrap: break-word;
-  }*/
 
 }
